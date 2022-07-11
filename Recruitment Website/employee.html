@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee contents</title>
+    <link href="assets/css/layout.css" rel="stylesheet" />
+    <link href="assets/css/website.css" rel="stylesheet" />
+
+    <script>
+      function loadHeader() {
+        fetch("assets/static/header.html")
+          .then((response) => response.text())
+          .then((text) => (document.querySelector("header").innerHTML = text));
+      }
+      function loadFooter() {
+        fetch("assets/static/footer.html")
+          .then((response) => response.text())
+          .then((text) => (document.querySelector("footer").innerHTML = text));
+      }
+
+      loadHeader();
+      loadFooter();
+    </script>
+  </head>
+  <body>
+    <header></header>
+    <div class="title"></div>
+    <main id="emp-content"></main>
+    <footer></footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+button {
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 1px solid skyblue;
+}
+.button1:hover {
+  background-color: skyblue;
+  border-radius: 10px;
+  color: white;
+}
+.title {
+  border-bottom: 5px solid white;
+  padding: 25px;
+}
+.title h2 {
+  display: inline;
+}
+.title .hired {
+  float: right;
+  background-color: #333;
+  font-size: 40px;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+.title .hired:hover {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: blueviolet;
+}
+#emp-content {
+  padding: 10px;
+  display: flex;
+}
+#emp-content img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 5px solid white;
+}
+#emp-content dl {
+  border-left: 2px solid white;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+#emp-content dl dt {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#emp-content dl dd {
+  margin-top: 5px;
+}
+.lsem {
+  padding: 10%;
+}
+.lsem .container {
+  position: relative;
+  display: flex;
+  background-color: darkgray;
+  padding: 2%;
+  margin-bottom: 1%;
+}
+.lsem .container:hover {
+  background-color: blueviolet;
+  transition-duration: 0.8s;
+  cursor: pointer;
+}
+.lsem .container .left-side {
+  flex-basis: 20%;
+  text-align: center;
+}
+.lsem .container .left-side img {
+  width: 200px;
+  height: 200px;
+  border-radius: 250px;
+  padding: 5px;
+  border: 2px solid white;
+}
+.lsem .container .right-side {
+  flex-basis: 80%;
+  border-left: 2px solid white;
+  margin-left: 2%;
+  padding-left: 5%;
+}
+.lsem .container .state {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 30px;
+  font-size: 1.05em;
+}
