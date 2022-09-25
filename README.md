@@ -1,6 +1,6 @@
 # training-period
 
-This a private repository that will includes all of my work during the training period.
+This is a repository that will includes some of my work during the training period.
 
 ## How
 
